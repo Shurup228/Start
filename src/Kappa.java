@@ -5,6 +5,7 @@ import Engine.Gui_Factory;
 /**
  * @author ярик
  *√лавный класс
+ *HUI
  */
 public class Kappa {
 
