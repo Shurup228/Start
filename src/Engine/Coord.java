@@ -19,17 +19,17 @@ public class Coord {
 	
 		public static void Fill_Screen(int x, int y ,int z) {
 			
-			JPanel Panel = new JPanel();
-			Panel.setBackground(Color.getHSBColor(x, y, z));
-			Panel.setLayout(new FlowLayout());
+			JPanel Panel = new JPanel();//Создаем область для отрисовки
+			Panel.setBackground(Color.getHSBColor(x, y, z));//Ставим цвет фона
+			Panel.setLayout(new FlowLayout());//Новый слой
 			
-			Gui_Factory.Kappa.add(Panel);
+			Gui_Factory.Kappa.add(Panel);//Добавляем в главное окно созданную раннее область
 			
 		}
 		
 		public static void Draw_Grid(Graphics g) {
 			
-			super.Draw_Grid(g);
+			g.setColor(Color.WHITE);//
 			
 		}
 }
