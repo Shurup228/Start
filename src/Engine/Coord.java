@@ -7,8 +7,6 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
-import java.awt.Dimension;
-import java.awt.Window;
 import javax.swing.JPanel;
 import Engine.Gui_Factory;
 
@@ -17,15 +15,14 @@ import Engine.Gui_Factory;
  *“от самый коордиатный главный класс
  */
 public class Coord {
-	
-		String color = new String();
 		
-		public static void Fill_Background(int x, int y, String color) {
+		public static void Fill_Screen(int x, int y) {
 			
 			JPanel Panel = new JPanel();
-			Panel.setBackground(Color.color);
+			Panel.setBackground(Color.cyan);
 			Panel.setLayout(new FlowLayout());
-	
-	}
-	
+			
+			Gui_Factory.Kappa.add(Panel);
+			
+		}
 }

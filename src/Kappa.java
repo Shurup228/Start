@@ -18,6 +18,7 @@ public class Kappa {
 
 			@Override
 			public void run() {
+				
 				  Gui_Factory.CreateWindow(800, 600);
 				
 			}
