@@ -14,7 +14,7 @@ public class Gui_Factory extends Coord {
 		Window.setPreferredSize(new Dimension(x, y));//Предпочитаемый размер
 		
 		Window.pack();//Окно в рамке, а не полноэкраный режим
-		Window.setVisible(true);//Все и так ясно(Okno delayet visibilnim)huy
+		Window.setVisible(true);//Все и так ясно(Okno delayet visibilnim)
 		
 	}
 
