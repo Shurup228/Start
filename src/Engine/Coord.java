@@ -9,9 +9,7 @@ import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.Dimension;
 import java.awt.Window;
-
 import javax.swing.JPanel;
-
 import Engine.Gui_Factory;
 
 /**
@@ -19,13 +17,14 @@ import Engine.Gui_Factory;
  *“от самый коордиатный главный класс
  */
 public class Coord {
-
-		public static void DrawLine(int x, int y, ) {
+	
+		String color = new String();
+		
+		public static void Fill_Background(int x, int y, String color) {
 			
 			JPanel Panel = new JPanel();
-			Panel.setBackground(Color.cyan);
+			Panel.setBackground(Color.color);
 			Panel.setLayout(new FlowLayout());
-			Window.add(Panel);
 	
 	}
 	
