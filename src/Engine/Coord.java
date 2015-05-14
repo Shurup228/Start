@@ -4,9 +4,7 @@
 package Engine;
 
 import java.awt.Color;
-import java.awt.Component;
 import java.awt.FlowLayout;
-import java.awt.Graphics;
 import javax.swing.JPanel;
 import Engine.Gui_Factory;
 
@@ -16,7 +14,7 @@ import Engine.Gui_Factory;
  */
 public class Coord {
 		
-		public static void Fill_Screen(int x, int y) {
+		public static void Fill_Screen() {
 			
 			JPanel Panel = new JPanel();
 			Panel.setBackground(Color.cyan);

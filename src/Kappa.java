@@ -2,6 +2,7 @@
  * 
  */
 import Engine.Gui_Factory;
+import Engine.Coord;
 /**
  * @author ярик
  *√лавный класс
@@ -20,6 +21,7 @@ public class Kappa {
 			public void run() {
 				
 				  Gui_Factory.CreateWindow(800, 600);
+				  Coord.Fill_Screen();
 				
 			}
 		  });
