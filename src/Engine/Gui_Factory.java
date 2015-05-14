@@ -16,7 +16,7 @@ public class Gui_Factory extends Coord {
 		Kappa.setPreferredSize(new Dimension(x, y));//Предпочитаемый размер
 		
 		Kappa.pack();//Окно в рамке, а не полноэкраный режим
-		Kappa.setVisible(true);//Все и так ясно(Okno delayet visibilnim)
+		Kappa.setVisible(true);//Все и так ясно(Okno delayetsya visibilnim)
 		
 	}
 

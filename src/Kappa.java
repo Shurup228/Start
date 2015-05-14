@@ -15,16 +15,16 @@ public class Kappa {
 	 */
 	public static void main(String[] args) {
 
-		  javax.swing.SwingUtilities.invokeLater(new Runnable() {
+		 // javax.swing.SwingUtilities.invokeLater(new Runnable() {
 
-			@Override
-			public void run() {
+			//@Override
+			//public void run() {
 				
 				  Gui_Factory.CreateWindow(800, 600);
-				  Coord.Fill_Screen(10, 100, 4000000);
-				
-			}
-		  });
+				  Coord.Draw_Grid(1, 1, 3999999);
+				  
+			//}
+		 // });
 
 	}
 
