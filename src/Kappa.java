@@ -17,7 +17,7 @@ public class Kappa {
 
 				
 				  Gui_Factory.createWindow();
-				  Button.CreateButton(2, 2, 2, 3, "Lol");
+				  Button.CreateButton(12, 13, 2, 2, "Lol");
 
 	}
 
