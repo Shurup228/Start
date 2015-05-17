@@ -3,8 +3,6 @@
  */
 package Engine;
 
-import java.awt.*;
-import Engine.*;
 import Util.*;
 
 /**
@@ -13,23 +11,41 @@ import Util.*;
  */
 public class Coord {
 		
-		public static int getCoordX(int x) {
+		public static int getCoordBig(int x) {
 			
-			int squareX;
+			int SquareCenter;
 			
-			squareX = (x*Constants.SQUARE_SIZE_BIG) - Constants.SQUARE_SIZE_BIG/2;
+			SquareCenter = (x*Constants.SQUARE_SIZE_BIG) - Constants.SQUARE_SIZE_BIG/2;
 			
-			return squareX;
-		}
-		
-		public static int getCoordY(int y) {
-			
-			int squareY;
-			
-			squareY = (y*Constants.SQUARE_SIZE_BIG) - Constants.SQUARE_SIZE_BIG/2;
-			
-			return squareY;
-			
+			return SquareCenter;
 		}
 
+		public static int getSizeBig(int x) {
+			
+			int SquareSize;
+			
+			SquareSize = Constants.SQUARE_SIZE_BIG*x;
+			
+			return SquareSize;
+			
+		}
+		
+		public static int getCoordSmall(int x) {
+			
+			int SquareCenter;
+			
+			SquareCenter = (x*Constants.SQUARE_SIZE_SMALL) - Constants.SQUARE_SIZE_SMALL/2;
+			
+			return SquareCenter;
+		}
+		
+		public static int getSizeSmall(int x) {
+			
+			int SquareSize;
+			
+			SquareSize = Constants.SQUARE_SIZE_SMALL*x;
+			
+			return SquareSize;
+			
+		}
 }
