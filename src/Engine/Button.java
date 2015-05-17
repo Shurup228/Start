@@ -1,20 +1,14 @@
 package Engine;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.awt.Toolkit;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JFrame;
 import Engine.*;
+import Util.*;
+import java.awt.*;
+import javax.swing.*;
 
 public class Button extends Coord{
 	
-
-	public static void CreateButton(int x, int y, int x1, int x2)
-	{
+	public static void CreateButton(int x, int y, int x1, int x2) {
+	
     JButton button1 = new JButton("Start");
     JButton button2 = new JButton("quit");
     button1.getActionCommand();
@@ -32,11 +26,6 @@ public class Button extends Coord{
 	button1.repaint();
 	button2.repaint();
     
-	}
-    public void actionPerformed(ActionEvent e) {
-  
-    	
-
 	}
 	
 }

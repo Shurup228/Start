@@ -4,30 +4,20 @@
 package Engine;
 
 import java.awt.*;
-import javax.swing.JPanel;
 import Engine.*;
+import Util.*;
 
 /**
  * @author Ярик
  *Тот самый коордиатный главный класс
  */
 public class Coord {
-
-		public static void Draw_Grid(int x, int y ,int z) {
-			
-			JPanel Panel = new JPanel();//Создаем область для отрисовки
-			Panel.setBackground(Color.getHSBColor(x, y, z));//Ставим цвет фона
-			Panel.setLayout(new FlowLayout());//Новый слой
-			
-			Gui_Factory.Kappa.add(Panel);//Добавляем в главное окно созданную раннее область
-
-		}
 		
 		public static int getCoordX(int x) {
 			
 			int squareX;
 			
-			squareX = (x*32) - 16;
+			squareX = (x*Constants.SQUARE_SIZE_BIG) - Constants.SQUARE_SIZE_BIG/2;
 			
 			return squareX;
 		}
@@ -36,7 +26,7 @@ public class Coord {
 			
 			int squareY;
 			
-			squareY = (y*32) - 16;
+			squareY = (y*Constants.SQUARE_SIZE_BIG) - Constants.SQUARE_SIZE_BIG/2;
 			
 			return squareY;
 			
