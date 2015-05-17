@@ -4,10 +4,8 @@
 package Engine;
 
 import java.awt.*;
-
 import javax.swing.JPanel;
-
-import Engine.Gui_Factory;
+import Engine.*;
 
 /**
  * @author Ярик
@@ -23,6 +21,25 @@ public class Coord {
 			
 			Gui_Factory.Kappa.add(Panel);//Добавляем в главное окно созданную раннее область
 
+		}
+		
+		public static int getCoordX(int x) {
+			
+			int squareX;
+			
+			squareX = (x*32) - 16;
+			
+			return squareX;
+		}
+		
+		public static int getCoordY(int y) {
+			
+			int squareY;
+			
+			squareY = (y*32) - 16;
+			
+			return squareY;
+			
 		}
 
 }
