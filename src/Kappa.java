@@ -1,8 +1,9 @@
 /**
  * 
  */
+import javax.swing.JButton;
+
 import Engine.*;
-import Engine.Button;
 /**
  * @author ярик
  *√лавный класс
@@ -17,8 +18,8 @@ public class Kappa {
 
 				
 				  Gui_Factory.createWindow();
-				  Button.CreateButtonSized(20, 10, 5, 3, "Lol");
-				  Button.CreateButtonSized(2 , 1, 2, 2, "Kappa");
+				  JButton button1 = Button.CreateButtonSized(20, 10, 5, 3, "Lol", true);
+				  JButton button2 = Button.CreateButtonSized(2 , 1, 2, 2, "Kappa", true);
 
 	}
 
