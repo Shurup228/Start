@@ -18,14 +18,12 @@ public class Kappa {
 
 				
 				  Gui_Factory.createWindow();
-				  JButton button1 = Button.CreateButtonSized(20, 10, 5, 3, "Lol", true);
-				  JButton button2 = Button.CreateButtonSized(2 , 1, 2, 2, "Kappa", true);
+				  JButton New_Game_Button = Button.CreateButtonSized(17, 9, 8, 2, "New Game", true);
+				  JButton Continue_Button = Button.CreateButtonSized(18 , 12, 6, 1, "Continue", true);
+				  JButton Settings_Button = Button.CreateButtonSized(18 , 14, 6, 1, "Settings", true);
 				  
 				  for(int i = 0; i == 2; i++) {
-					  
-					  button1.repaint();
-					  button2.repaint();
-					  
+					  				  
 				  }
 
 	}

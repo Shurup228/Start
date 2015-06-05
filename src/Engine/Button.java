@@ -6,8 +6,6 @@ import javax.swing.*;
 
 public class Button {
 	
-	public static ButtonGroup Button_Group = new ButtonGroup();
-	
 	public static JButton CreateButtonSized(int x, int y, int x1, int y1, String name, boolean visible) {
 		
 	JPanel Button_Panel = new JPanel();
