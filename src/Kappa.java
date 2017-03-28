@@ -21,6 +21,7 @@ public class Kappa {
 				  JButton New_Game_Button = Button.CreateButtonSized(17, 9, 8, 2, "New Game", true);
 				  JButton Continue_Button = Button.CreateButtonSized(18 , 12, 6, 1, "Continue", true);
 				  JButton Settings_Button = Button.CreateButtonSized(18 , 14, 6, 1, "Settings", true);
+                                  // Test comment
 				  
 				  for(int i = 0; i == 2; i++) {
 					  				  
